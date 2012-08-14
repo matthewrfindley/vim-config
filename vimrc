@@ -27,6 +27,8 @@ Bundle 'nelstrom/vim-textobj-rubyblock'
 Bundle 'ap/vim-css-color'
 Bundle 'ervandew/supertab'
 Bundle 'skalnik/vim-vroom'
+Bundle 'tomtom/tcomment_vim'
+Bundle 'kchmck/vim-coffee-script'
 
 :runtime macros/matchit.vim
 
@@ -71,6 +73,11 @@ set t_Co=256
 let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
 let g:CSApprox_eterm = 1
 color molokai
+
+" Set extra options when running in GUI mode
+set guioptions-=T
+set guioptions-=r
+set guioptions-=l
 
 " Show (partial) command in the status line
 set showcmd
