@@ -136,8 +136,6 @@ map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
 
-nmap <Leader>rc :silent !touch features/step_definitions/web_steps.rb<CR>
-
 " Show 2 lines of context
 set scrolloff=2
 
